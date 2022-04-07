@@ -1,0 +1,14 @@
+!/bin/bash
+echo "JA3 hash comparison script, please provide the user of the remote host"
+read user
+echo "the ip"
+read remsvr
+echo "the path"
+read rempath
+scp -r -i ~/.ssh/id_rsa.pub $user@$remsvr:$rempath /home/ubuntu/Desktop/
+for filename in /home/ubuntu/Desktop/fuck/*
+do
+	python3 ja3.py $filename
+done
+
+

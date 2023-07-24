@@ -1,5 +1,5 @@
-﻿#File comparison script by John Chambers
-Write-Host "This is a script to compare two files by Cpl Chambers and Cpl Hancock" -ForegroundColor Green #Establish dominance
+﻿#File comparison script by CyberTimeBaby
+Write-Host "This is a script to compare two files by CyberTimeBaby
 
 do {  
        Do{
